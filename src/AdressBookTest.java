@@ -15,7 +15,7 @@ public class AdressBookTest {
 		Person p5 = new Person("ralf");
 		Person p6 = new Person("roman");
 		Person p7 = new Person("jack");
-
+		Student s1 = new Student("Hamlin", 123456);
 
 
 
@@ -27,6 +27,8 @@ public class AdressBookTest {
 		a1.addElem(p5);
 		a1.addElem(p6);
 		a1.addElem(p7);
+		a1.addElem(s1);
+
 
 
 
